@@ -1,0 +1,36 @@
+.container {
+    position: absolute;
+    top: 120%;
+    left: 50%;
+    transform: translateX(-50%);
+    border: 1px solid #333;
+    width: 100%;
+    border-radius: 10px;
+    padding: 15px 30px;
+    
+}
+.wrap {
+    font-size: 1.7rem;
+    margin-bottom: 10px;
+}
+
+.item {
+    
+}
+
+.title {
+    padding-bottom: 10px;
+    border-bottom: 1px solid rgba($color: #000000, $alpha: 0.2);
+    display: flex;
+    justify-content: space-between;
+}
+.normal {
+    width: 20px;
+}
+
+.result {
+    margin: 10px 0;
+    display: flex;
+    gap: 10px;
+}
+
