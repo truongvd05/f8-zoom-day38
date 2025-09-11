@@ -53,13 +53,13 @@ function DropDownSearchForm({isOpen, value, onClose}) {
                 </div>
                 <ul>
                     <li className={style.result}>
-                        <SearchItem normal src='https://www.vhv.rs/dpng/d/524-5245981_react-js-logo-png-transparent-png-download.png' >TyperScrip là gì, vì sao nên dùng TyperScrip</SearchItem>
+                        <SearchItem normal src='https://files.fullstack.edu.vn/f8-prod/blog_posts/1073/6179eca886d21.jpg' >TyperScrip là gì, vì sao nên dùng TyperScrip</SearchItem>
                     </li>
                     <li className={style.result}>
-                        <SearchItem normal src='https://khoahochatde.com/wp-content/uploads/2025/01/62f13d2424a47.png' >Học viên Funix lạc đường tới F8</SearchItem>
+                        <SearchItem normal src='https://files.fullstack.edu.vn/f8-prod/blog_posts/7256/644487532d9df.jpg' >Học viên Funix lạc đường tới F8</SearchItem>
                     </li>
                     <li className={style.result}>
-                        <SearchItem normal src='https://www.vhv.rs/dpng/d/524-5245981_react-js-logo-png-transparent-png-download.png' >Bạn đã biết cách đưa trang wed của mình lên github</SearchItem>
+                        <SearchItem normal src='https://files.fullstack.edu.vn/f8-prod/blog_posts/5918/63a4b3ff9ce49.jpg' >Bạn đã biết cách đưa trang wed của mình lên github</SearchItem>
                     </li>
                 </ul>
             </div>
@@ -70,10 +70,10 @@ function DropDownSearchForm({isOpen, value, onClose}) {
                 </div>
                 <ul>
                     <li className={style.result}>
-                        <SearchItem normal src='https://www.vhv.rs/dpng/d/524-5245981_react-js-logo-png-transparent-png-download.png' >Giới thiệu khóa học</SearchItem>
+                        <SearchItem normal src='https://i.ytimg.com/vi/-jV06pqjUUc/maxresdefault.jpg' >Giới thiệu khóa học</SearchItem>
                     </li>
                     <li className={style.result}>
-                        <SearchItem normal src='https://www.vhv.rs/dpng/d/524-5245981_react-js-logo-png-transparent-png-download.png' >Them/sửa/xóa với Fetch và REST API</SearchItem>
+                        <SearchItem normal src='https://i.ytimg.com/vi/TRjVXmk8q8I/maxresdefault.jpg' >Them/sửa/xóa với Fetch và REST API</SearchItem>
                     </li>
                 </ul>
             </div>
