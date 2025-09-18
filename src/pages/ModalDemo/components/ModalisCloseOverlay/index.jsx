@@ -1,5 +1,6 @@
 import { useState } from "react";
-import Modal from "../../Modal";
+
+import Modal from "../../../../components/Modal";
 
 import style from './ModalisCloseOverlay.module.scss'
 

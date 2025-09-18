@@ -10,8 +10,6 @@ function DropDownSearchForm({isOpen, value, onClose}) {
             console.log(target);
             if(!target) {   
                 onClose();
-                console.log(123);
-                
             }
         }
         if(isOpen) {

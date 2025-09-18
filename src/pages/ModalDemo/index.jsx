@@ -1,5 +1,3 @@
-import { useState } from "react";
-import Modal from "./Modal";
 
 import style from './ModalDemo.module.scss'
 import ModalBasic from "./components/ModalBasic";
@@ -8,6 +6,7 @@ import ModalisCloseOverlay from "./components/ModalisCloseOverlay";
 import ModalisCloseEsc from "./components/ModalisCloseEsc";
 import ModalCustom from "./components/ModalCustom";
 import ModalCallback from "./components/ModalCallback";
+import ModalCurrent from './components/ModalCurrent';
 
 function ModalDemo() {
     return (
@@ -18,6 +17,7 @@ function ModalDemo() {
             <ModalisCloseEsc/>
             <ModalCustom/>
             <ModalCallback/>
+            <ModalCurrent/>
         </div>
     )
 }

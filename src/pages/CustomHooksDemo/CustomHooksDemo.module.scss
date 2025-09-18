@@ -1,0 +1,26 @@
+.wrap {
+    margin: 0 200px;
+    padding: 20px;
+}
+
+.use {
+    display: flex;
+    gap: 15px;
+    margin-bottom: 20px;
+}
+.container > * {
+    flex-grow: 1;
+}
+
+.section {
+    display: flex;
+    gap: 20px;
+}
+
+.black {
+    background-color: rgb(182, 182, 182);
+}
+
+.white {
+    background-color: white;
+}

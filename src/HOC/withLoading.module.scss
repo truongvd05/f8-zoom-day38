@@ -1,0 +1,18 @@
+.container {
+
+}
+
+.loader {
+  animation: fade 2s infinite;
+  animation-delay: var(--delay);
+  color: transparent;
+  background-image: linear-gradient(90deg,rgba(162, 58, 180, 1) 0%, rgba(255, 180, 74, 1) 100%);;
+  background-clip: text;
+  -webkit-background-clip: text;
+}
+
+@keyframes fade {
+  0% { opacity: 0.2; }
+  50% { opacity: 1; }
+  100% { opacity: 0.2; }
+}

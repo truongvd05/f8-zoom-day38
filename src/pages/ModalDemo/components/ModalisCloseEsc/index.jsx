@@ -1,6 +1,7 @@
 import { useState } from 'react'
 import style from './ModalisCloseEsc.module.scss'
-import Modal from '../../Modal';
+import Modal from "../../../../components/Modal";
+
 
 
 function ModalisCloseEsc() {

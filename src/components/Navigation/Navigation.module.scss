@@ -1,0 +1,25 @@
+.wrap {
+    display: flex;
+    margin: 0 100px;
+    justify-content: center;
+}
+.container {
+    display: flex;
+    margin-bottom: 50px;
+
+}
+
+.item > * {
+    padding: 8px;
+    background-color: azure;
+    color: black;
+    white-space: nowrap
+}
+
+.item > *:hover {
+    background-color:bisque;
+}
+
+.active {
+    background-color: bisque;
+}

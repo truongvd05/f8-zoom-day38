@@ -32,11 +32,11 @@ function UserMenuDropDown({isOpen, onClose}) {
             <ul className={style.list}>
                 <li><NavLink to="/modal-demo">Viết Blog</NavLink></li>
                 <li><NavLink to="/scroll-demo">Bài viết của tôi</NavLink></li>
-                <li><NavLink to="">Bài viết đã lưu</NavLink></li>
+                <li><NavLink to="/FocusDemo">Bài viết đã lưu</NavLink></li>
             </ul>
             <ul className={style.list}>
-                <li><NavLink to="">Cài đặt</NavLink></li>
-                <li><NavLink to="">Đăng xuất</NavLink></li>
+                <li><NavLink to="/HOCDemopage">Cài đặt</NavLink></li>
+                <li><NavLink to="/RenderPropsDemo">Đăng xuất</NavLink></li>
             </ul>
         </div>
     )
