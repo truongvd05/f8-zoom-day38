@@ -11,7 +11,6 @@ import HOCDemoPage from '@/pages/HOCDemopage';
 import RenderPropsDemo from '@/pages/RenderPropsDemo';
 import CustomHooksDemo from '@/pages/CustomHooksDemo';
 
-
 function AppRoutes() {
     return (
         <HashRouter>
